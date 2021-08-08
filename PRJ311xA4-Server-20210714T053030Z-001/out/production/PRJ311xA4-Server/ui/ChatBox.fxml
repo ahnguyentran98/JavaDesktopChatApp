@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="403.0" prefWidth="334.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChatBoxController">
+    <children>
+
+        <TextArea fx:id="txtContent" layoutX="19.0" layoutY="19.0" prefHeight="316.0" prefWidth="291.0" />
+        <TextField fx:id="txtMessage" layoutX="20.0" layoutY="359.0" prefHeight="27.0" prefWidth="230.0" />
+        <Button fx:id="btnSend" layoutX="267.0" layoutY="360.0" mnemonicParsing="false" onAction="#btnSendActionPerformed" text="Send" />
+
+    </children>
+</Pane>
